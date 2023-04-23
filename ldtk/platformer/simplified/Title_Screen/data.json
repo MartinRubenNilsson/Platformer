@@ -1,0 +1,55 @@
+{
+	"x": -2560,
+	"y": -1024,
+	"width": 256,
+	"height": 256,
+	"iid": "c0a82540-5110-11ed-9a76-5945a14f582e",
+	"layers": [
+		"Bg_textures.png",
+		"Wall_shadows.png",
+		"Collisions.png"
+	],
+	"entities": {
+		"Logo": [
+			{
+				"id": "Logo",
+				"iid": "5eef4bd0-5110-11ed-93e7-ef3ebd87eb79",
+				"layer": "Misc",
+				"x": 125,
+				"y": 60,
+				"width": 128,
+				"height": 80,
+				"color": 9755059,
+				"customFields" : {}
+			}
+		],
+		"Text": [
+			{
+				"id": "Text",
+				"iid": "440d82b0-5110-11ed-8e22-7fea17d3194e",
+				"layer": "Misc",
+				"x": 66,
+				"y": 116,
+				"width": 54,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Text": "START"
+				}
+			},
+			{
+				"id": "Text",
+				"iid": "542ed810-5110-11ed-8e22-2ba0271569f4",
+				"layer": "Misc",
+				"x": 66,
+				"y": 144,
+				"width": 56,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Text": "CONTINUE"
+				}
+			}
+		]
+	}
+}

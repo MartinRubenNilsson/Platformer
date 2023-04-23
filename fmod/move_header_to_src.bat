@@ -1,0 +1,1 @@
+move fmod_studio_guids.hpp ..\src\External\fmod

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fbf30a5e-222d-490d-973b-c5fd3bfd43f4}">
+		<property name="assetPath">
+			<value>lamu_awakening.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>149.352</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{88dc7422-5203-40ac-b176-186576902d45}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ecs">
+      <UniqueIdentifier>{C06D880B-2C77-887C-B5F2-9E7C21FB937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ecs\component">
+      <UniqueIdentifier>{4296BCA2-AE56-38D9-7791-8156E3107DB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ecs\system">
+      <UniqueIdentifier>{F47C8C32-E034-CE7F-493C-A7DB35136970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="grid">
+      <UniqueIdentifier>{6B7D977C-57B4-980D-00A1-7E10ECB6140F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ldtk">
+      <UniqueIdentifier>{34019A7C-2038-9B0D-C924-8110B53A170F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="level">
+      <UniqueIdentifier>{3DBCDA0F-A9D0-02C1-7252-A620DE25FFF1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="ecs\EntityCopier.h">
+      <Filter>ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\EntityFactory.h">
+      <Filter>ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\Children.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\Colors.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\Directions.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\EntityID.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\EntityIID.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\EntityRefs.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\Events.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\Rects.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\Sensors.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\all_components.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\bools.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\c_player.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\enums.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\float2s.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\floats.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\ints.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\component\strings.h">
+      <Filter>ecs\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\ecs_funcs.h">
+      <Filter>ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\AudioManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\CameraManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\CollisionManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\EnemyManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\HierarchyManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\InteractionManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\LifetimeManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\PhysicsManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\PlayerManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\RenderManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\SensorManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\SpriteManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\System.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\TextManager.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\system\all_systems.h">
+      <Filter>ecs\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\tags.h">
+      <Filter>ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\IntGrid.h">
+      <Filter>grid</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\IntMask.h">
+      <Filter>grid</Filter>
+    </ClInclude>
+    <ClInclude Include="ldtk\LDtk.h">
+      <Filter>ldtk</Filter>
+    </ClInclude>
+    <ClInclude Include="level\Level.h">
+      <Filter>level</Filter>
+    </ClInclude>
+    <ClInclude Include="level\LevelManager.h">
+      <Filter>level</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ecs\EntityCopier.cpp">
+      <Filter>ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\EntityFactory.cpp">
+      <Filter>ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\ecs_funcs.cpp">
+      <Filter>ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\AudioManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\CameraManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\CollisionManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\EnemyManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\HierarchyManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\InteractionManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\LifetimeManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\PhysicsManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\PlayerManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\RenderManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\SensorManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\SpriteManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\System.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\system\TextManager.cpp">
+      <Filter>ecs\system</Filter>
+    </ClCompile>
+    <ClCompile Include="grid\IntGrid.cpp">
+      <Filter>grid</Filter>
+    </ClCompile>
+    <ClCompile Include="ldtk\LDtk.cpp">
+      <Filter>ldtk</Filter>
+    </ClCompile>
+    <ClCompile Include="level\Level.cpp">
+      <Filter>level</Filter>
+    </ClCompile>
+    <ClCompile Include="level\LevelManager.cpp">
+      <Filter>level</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

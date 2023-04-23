@@ -1,0 +1,147 @@
+{
+	"x": 0,
+	"y": 512,
+	"width": 464,
+	"height": 256,
+	"iid": "a317cef0-66b0-11ec-9cd7-dd2f249c8c8b",
+	"layers": [
+		"Bg_textures.png",
+		"Wall_shadows.png",
+		"Collisions.png"
+	],
+	"entities": {
+		"Player": [
+			{
+				"id": "Player",
+				"iid": "6a2f2fd0-2a00-11ed-ba46-993b01ec427e",
+				"layer": "Player",
+				"x": 213,
+				"y": 107,
+				"width": 16,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 3,
+					"Score": 0,
+					"AnimationTag": "Idle",
+					"ColliderScale": 0.7,
+					"Gravity": 0.1,
+					"SensorsScale": 0.7,
+					"FaceGroundMotion": true
+				}
+			}
+		],
+		"Snake": [
+			{
+				"id": "Snake",
+				"iid": "d685c400-2a00-11ed-81c8-1b32913b7175",
+				"layer": "Enemies",
+				"x": 248,
+				"y": 176,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Slither",
+					"SensorsScale": 0.8,
+					"Speed": 30,
+					"TurnOnTouchWall": true,
+					"ColliderScale": 0.8,
+					"TurnOnTouchLedge": true,
+					"MoveDirection": "Right",
+					"Score": 4,
+					"DeathEvent": "Enemy/Snake/Death"
+				}
+			},
+			{
+				"id": "Snake",
+				"iid": "fe150420-2a00-11ed-81c8-b5d879583e0b",
+				"layer": "Enemies",
+				"x": 366,
+				"y": 160,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Slither",
+					"SensorsScale": 0.8,
+					"Speed": 30,
+					"TurnOnTouchWall": true,
+					"ColliderScale": 0.8,
+					"TurnOnTouchLedge": true,
+					"MoveDirection": "Left",
+					"Score": 4,
+					"DeathEvent": "Enemy/Snake/Death"
+				}
+			},
+			{
+				"id": "Snake",
+				"iid": "ff9625e0-2a00-11ed-81c8-7db051f9b90f",
+				"layer": "Enemies",
+				"x": 311,
+				"y": 112,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Slither",
+					"SensorsScale": 0.8,
+					"Speed": 30,
+					"TurnOnTouchWall": true,
+					"ColliderScale": 0.8,
+					"TurnOnTouchLedge": true,
+					"MoveDirection": "Left",
+					"Score": 4,
+					"DeathEvent": "Enemy/Snake/Death"
+				}
+			}
+		],
+		"Spider": [
+			{
+				"id": "Spider",
+				"iid": "fb8a70c0-2a00-11ed-b9e8-e7ad03648a6f",
+				"layer": "Enemies",
+				"x": 84,
+				"y": 74,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Crawl",
+					"SensorsScale": 0.8,
+					"ColliderScale": 0.8,
+					"Speed": 30,
+					"MoveAlongSurface": true,
+					"MoveDirection": "Right",
+					"Score": 10,
+					"DeathEvent": "Enemy/Spider/Death"
+				}
+			},
+			{
+				"id": "Spider",
+				"iid": "43098110-2a00-11ed-b6dc-c388562bcfda",
+				"layer": "Enemies",
+				"x": 64,
+				"y": 74,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Crawl",
+					"SensorsScale": 0.8,
+					"ColliderScale": 0.8,
+					"Speed": 30,
+					"MoveAlongSurface": true,
+					"MoveDirection": "Left",
+					"Score": 10,
+					"DeathEvent": "Enemy/Spider/Death"
+				}
+			}
+		]
+	}
+}

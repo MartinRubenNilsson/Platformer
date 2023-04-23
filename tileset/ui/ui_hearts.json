@@ -1,0 +1,112 @@
+{ "frames": [
+   {
+    "filename": "ui_hearts 0.ase",
+    "frame": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 100
+   },
+   {
+    "filename": "ui_hearts 1.ase",
+    "frame": { "x": 0, "y": 8, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 500
+   },
+   {
+    "filename": "ui_hearts 2.ase",
+    "frame": { "x": 0, "y": 16, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 500
+   },
+   {
+    "filename": "ui_hearts 3.ase",
+    "frame": { "x": 0, "y": 24, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 100
+   },
+   {
+    "filename": "ui_hearts 4.ase",
+    "frame": { "x": 0, "y": 32, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 100
+   },
+   {
+    "filename": "ui_hearts 5.ase",
+    "frame": { "x": 0, "y": 40, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 100
+   },
+   {
+    "filename": "ui_hearts 6.ase",
+    "frame": { "x": 0, "y": 48, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 100
+   },
+   {
+    "filename": "ui_hearts 7.ase",
+    "frame": { "x": 0, "y": 56, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 100
+   },
+   {
+    "filename": "ui_hearts 8.ase",
+    "frame": { "x": 0, "y": 64, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 100
+   },
+   {
+    "filename": "ui_hearts 9.ase",
+    "frame": { "x": 0, "y": 72, "w": 64, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 8 },
+    "sourceSize": { "w": 64, "h": 8 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "ui_hearts.png",
+  "format": "RGBA8888",
+  "size": { "w": 64, "h": 80 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "0", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "1", "from": 1, "to": 2, "direction": "forward" },
+   { "name": "2", "from": 3, "to": 3, "direction": "forward" },
+   { "name": "3", "from": 4, "to": 4, "direction": "forward" },
+   { "name": "4", "from": 5, "to": 5, "direction": "forward" },
+   { "name": "5", "from": 6, "to": 6, "direction": "forward" },
+   { "name": "6", "from": 7, "to": 7, "direction": "forward" },
+   { "name": "7", "from": 8, "to": 8, "direction": "forward" },
+   { "name": "8", "from": 9, "to": 9, "direction": "forward" }
+  ]
+ }
+}

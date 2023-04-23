@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{51088b1d-4a4d-4e68-a048-9ed4a114cdcd}">
+		<property name="assetPath">
+			<value>Footstep/Concrete/ESE - Foot Step - Concrete 6.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.3721875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{88dc7422-5203-40ac-b176-186576902d45}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,55 @@
+{
+	"x": 768,
+	"y": -512,
+	"width": 512,
+	"height": 512,
+	"iid": "d36c1e60-2a00-11ed-864f-3f96cd63a369",
+	"layers": [
+		"Bg_textures.png",
+		"Wall_shadows.png",
+		"Collisions.png"
+	],
+	"entities": {
+		"Player": [
+			{
+				"id": "Player",
+				"iid": "521580d0-2a00-11ed-864f-1b9b52e82919",
+				"layer": "Player",
+				"x": 204,
+				"y": 144,
+				"width": 16,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 3,
+					"Score": 0,
+					"AnimationTag": "Idle",
+					"ColliderScale": 0.7,
+					"Gravity": 0.1,
+					"SensorsScale": 0.7,
+					"FaceGroundMotion": true
+				}
+			}
+		],
+		"Door": [
+			{
+				"id": "Door",
+				"iid": "0926c8b0-2a00-11ed-8647-e7ee948676a5",
+				"layer": "Interactables",
+				"x": 213,
+				"y": 208,
+				"width": 48,
+				"height": 48,
+				"color": 9755059,
+				"customFields": {
+					"Exit": {
+						"entityIid": "0396d570-2a00-11ed-8647-8921e2b035b6",
+						"layerIid": "dc197d30-2a00-11ed-a78a-911970ef8363",
+						"levelIid": "a315ac10-66b0-11ec-9cd7-99f223ad6ade",
+						"worldIid": "67f1c730-5110-11ed-810f-9d8531d8fc0c"
+					}
+				}
+			}
+		]
+	}
+}

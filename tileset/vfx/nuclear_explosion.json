@@ -1,0 +1,239 @@
+{ "frames": [
+   {
+    "filename": "nuclear_explosion 0.ase",
+    "frame": { "x": 283, "y": 638, "w": 112, "h": 89 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 128, "w": 112, "h": 89 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 1.ase",
+    "frame": { "x": 283, "y": 522, "w": 122, "h": 116 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 39, "y": 102, "w": 122, "h": 116 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 2.ase",
+    "frame": { "x": 0, "y": 521, "w": 130, "h": 124 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 96, "w": 130, "h": 124 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 3.ase",
+    "frame": { "x": 153, "y": 514, "w": 130, "h": 131 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 90, "w": 130, "h": 131 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 4.ase",
+    "frame": { "x": 617, "y": 512, "w": 133, "h": 159 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 62, "w": 133, "h": 159 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 5.ase",
+    "frame": { "x": 475, "y": 511, "w": 142, "h": 166 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 32, "y": 55, "w": 142, "h": 166 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 6.ase",
+    "frame": { "x": 0, "y": 352, "w": 153, "h": 169 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 29, "y": 52, "w": 153, "h": 169 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 7.ase",
+    "frame": { "x": 327, "y": 182, "w": 159, "h": 170 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 24, "y": 53, "w": 159, "h": 170 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 8.ase",
+    "frame": { "x": 666, "y": 174, "w": 164, "h": 172 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 21, "y": 52, "w": 164, "h": 172 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 9.ase",
+    "frame": { "x": 666, "y": 0, "w": 164, "h": 174 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 21, "y": 52, "w": 164, "h": 174 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 10.ase",
+    "frame": { "x": 504, "y": 0, "w": 162, "h": 179 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 21, "y": 50, "w": 162, "h": 179 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 11.ase",
+    "frame": { "x": 339, "y": 0, "w": 165, "h": 182 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 18, "y": 50, "w": 165, "h": 182 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 12.ase",
+    "frame": { "x": 171, "y": 0, "w": 168, "h": 182 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 17, "y": 50, "w": 168, "h": 182 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 13.ase",
+    "frame": { "x": 0, "y": 0, "w": 171, "h": 182 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 15, "y": 50, "w": 171, "h": 182 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 14.ase",
+    "frame": { "x": 0, "y": 182, "w": 164, "h": 170 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 23, "y": 50, "w": 164, "h": 170 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 15.ase",
+    "frame": { "x": 486, "y": 346, "w": 163, "h": 165 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 24, "y": 47, "w": 163, "h": 165 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 16.ase",
+    "frame": { "x": 504, "y": 179, "w": 162, "h": 167 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 24, "y": 45, "w": 162, "h": 167 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 17.ase",
+    "frame": { "x": 164, "y": 182, "w": 163, "h": 167 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 24, "y": 44, "w": 163, "h": 167 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 18.ase",
+    "frame": { "x": 649, "y": 346, "w": 162, "h": 166 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 24, "y": 42, "w": 162, "h": 166 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 19.ase",
+    "frame": { "x": 164, "y": 349, "w": 162, "h": 165 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 24, "y": 41, "w": 162, "h": 165 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 20.ase",
+    "frame": { "x": 326, "y": 352, "w": 149, "h": 170 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 30, "y": 39, "w": 149, "h": 170 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 21.ase",
+    "frame": { "x": 750, "y": 512, "w": 103, "h": 106 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 47, "y": 38, "w": 103, "h": 106 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 22.ase",
+    "frame": { "x": 750, "y": 618, "w": 101, "h": 70 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 47, "y": 38, "w": 101, "h": 70 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 23.ase",
+    "frame": { "x": 0, "y": 645, "w": 108, "h": 66 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 43, "y": 38, "w": 108, "h": 66 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   },
+   {
+    "filename": "nuclear_explosion 24.ase",
+    "frame": { "x": 830, "y": 0, "w": 1, "h": 1 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1, "h": 1 },
+    "sourceSize": { "w": 200, "h": 247 },
+    "duration": 25
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "nuclear_explosion.png",
+  "format": "I8",
+  "size": { "w": 853, "h": 727 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Explode", "from": 0, "to": 24, "direction": "forward" }
+  ]
+ }
+}

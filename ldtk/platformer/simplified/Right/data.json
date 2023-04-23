@@ -1,0 +1,197 @@
+{
+	"x": 768,
+	"y": 0,
+	"width": 512,
+	"height": 512,
+	"iid": "44c46010-2a00-11ed-ba46-b13e72f82906",
+	"layers": [
+		"Bg_textures.png",
+		"Wall_shadows.png",
+		"Collisions.png"
+	],
+	"entities": {
+		"Player": [
+			{
+				"id": "Player",
+				"iid": "8beee960-2a00-11ed-ba46-038ef9469c2d",
+				"layer": "Player",
+				"x": 204,
+				"y": 110,
+				"width": 16,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 3,
+					"Score": 0,
+					"AnimationTag": "Idle",
+					"ColliderScale": 0.7,
+					"Gravity": 0.1,
+					"SensorsScale": 0.7,
+					"FaceGroundMotion": true
+				}
+			}
+		],
+		"BlueCoin": [
+			{
+				"id": "BlueCoin",
+				"iid": "5bc32ef0-2a00-11ed-a750-71294fa87acf",
+				"layer": "Pickups",
+				"x": 77,
+				"y": 111,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Score": 1,
+					"AnimationTag": "Blue",
+					"ColliderScale": 0.5,
+					"Gravity": 600,
+					"Bounce": 0.5,
+					"Lifespan": 5,
+					"BlinkWhenLifespanLessThan": 2,
+					"SensorsScale": 0.5,
+					"DestroyEvent": "Pickup/Money",
+					"RandomVelocity": "{ \"min\": { \"x\": -50, \"y\": -200 }, \"max\": { \"x\": 50,  \"y\": -100 } }"
+				}
+			}
+		],
+		"RedCoin": [
+			{
+				"id": "RedCoin",
+				"iid": "5da66de0-2a00-11ed-a750-33fc1e74b4a0",
+				"layer": "Pickups",
+				"x": 167,
+				"y": 132,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Score": 3,
+					"AnimationTag": "Red",
+					"ColliderScale": 0.7,
+					"Gravity": 600,
+					"Bounce": 0.5,
+					"Lifespan": 5,
+					"BlinkWhenLifespanLessThan": 2,
+					"SensorsScale": 0.7,
+					"DestroyEvent": "Pickup/Money",
+					"RandomVelocity": "{ \"min\": { \"x\": -50, \"y\": -200 }, \"max\": { \"x\": 50,  \"y\": -100 } }"
+				}
+			}
+		],
+		"SilverCoin": [
+			{
+				"id": "SilverCoin",
+				"iid": "5ed79ae0-2a00-11ed-a750-ddda349a42ac",
+				"layer": "Pickups",
+				"x": 247,
+				"y": 129,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Score": 5,
+					"AnimationTag": "Silver",
+					"ColliderScale": 0.9,
+					"Gravity": 600,
+					"Bounce": 0.5,
+					"Lifespan": 5,
+					"BlinkWhenLifespanLessThan": 2,
+					"SensorsScale": 0.9,
+					"DestroyEvent": "Pickup/Money",
+					"RandomVelocity": "{ \"min\": { \"x\": -50, \"y\": -200 }, \"max\": { \"x\": 50,  \"y\": -100 } }"
+				}
+			}
+		],
+		"GoldCoin": [
+			{
+				"id": "GoldCoin",
+				"iid": "6008a0d0-2a00-11ed-a750-457f6c882208",
+				"layer": "Pickups",
+				"x": 314,
+				"y": 109,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Score": 7,
+					"AnimationTag": "Gold",
+					"ColliderScale": 1,
+					"Gravity": 600,
+					"Bounce": 0.5,
+					"Lifespan": 5,
+					"BlinkWhenLifespanLessThan": 2,
+					"SensorsScale": 1,
+					"DestroyEvent": "Pickup/Money",
+					"RandomVelocity": "{ \"min\": { \"x\": -50, \"y\": -200 }, \"max\": { \"x\": 50,  \"y\": -100 } }"
+				}
+			}
+		],
+		"Dirt": [
+			{
+				"id": "Dirt",
+				"iid": "410df1d0-5110-11ed-aeb9-19a45fc2379c",
+				"layer": "Destructibles",
+				"x": 136,
+				"y": 136,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			},
+			{
+				"id": "Dirt",
+				"iid": "48114b30-5110-11ed-aeb9-eb285554e636",
+				"layer": "Destructibles",
+				"x": 152,
+				"y": 136,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			},
+			{
+				"id": "Dirt",
+				"iid": "4bec3b70-5110-11ed-aeb9-f106f9037ceb",
+				"layer": "Destructibles",
+				"x": 136,
+				"y": 152,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			},
+			{
+				"id": "Dirt",
+				"iid": "4db0ced0-5110-11ed-aeb9-bdb6b660107b",
+				"layer": "Destructibles",
+				"x": 152,
+				"y": 152,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			}
+		]
+	}
+}

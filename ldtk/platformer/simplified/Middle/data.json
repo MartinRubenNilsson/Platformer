@@ -1,0 +1,275 @@
+{
+	"x": 0,
+	"y": 0,
+	"width": 768,
+	"height": 512,
+	"iid": "a315ac10-66b0-11ec-9cd7-99f223ad6ade",
+	"layers": [
+		"Bg_textures.png",
+		"Wall_shadows.png",
+		"Collisions.png"
+	],
+	"entities": {
+		"Player": [
+			{
+				"id": "Player",
+				"iid": "a315d323-66b0-11ec-9cd7-8ddce09157bc",
+				"layer": "Player",
+				"x": 168,
+				"y": 176,
+				"width": 16,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 3,
+					"Score": 0,
+					"AnimationTag": "Idle",
+					"ColliderScale": 0.7,
+					"Gravity": 0.1,
+					"SensorsScale": 0.7,
+					"FaceGroundMotion": true
+				}
+			}
+		],
+		"Spider": [
+			{
+				"id": "Spider",
+				"iid": "d0ba26f0-5110-11ed-bd3d-619b723f404a",
+				"layer": "Enemies",
+				"x": 208,
+				"y": 123,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Crawl",
+					"SensorsScale": 0.8,
+					"ColliderScale": 0.8,
+					"Speed": 30,
+					"MoveAlongSurface": true,
+					"MoveDirection": "Right",
+					"Score": 10,
+					"DeathEvent": "Enemy/Spider/Death"
+				}
+			}
+		],
+		"BlueGem": [
+			{
+				"id": "BlueGem",
+				"iid": "cfae7c80-2a00-11ed-bf45-41dd0a9977cb",
+				"layer": "Pickups",
+				"x": 471,
+				"y": 118,
+				"width": 8,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Score": 1,
+					"AnimationTag": "Blue",
+					"ColliderScale": 1,
+					"DestroyEvent": "Pickup/Money"
+				}
+			},
+			{
+				"id": "BlueGem",
+				"iid": "da4276b0-2a00-11ed-bf45-7dcc3e279a64",
+				"layer": "Pickups",
+				"x": 426,
+				"y": 118,
+				"width": 8,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Score": 1,
+					"AnimationTag": "Blue",
+					"ColliderScale": 1,
+					"DestroyEvent": "Pickup/Money"
+				}
+			},
+			{
+				"id": "BlueGem",
+				"iid": "db52d540-2a00-11ed-bf45-a100da9adfa5",
+				"layer": "Pickups",
+				"x": 390,
+				"y": 113,
+				"width": 8,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Score": 1,
+					"AnimationTag": "Blue",
+					"ColliderScale": 1,
+					"DestroyEvent": "Pickup/Money"
+				}
+			}
+		],
+		"RedGem": [
+			{
+				"id": "RedGem",
+				"iid": "aa0a9110-2a00-11ed-97a3-b5e8ea752777",
+				"layer": "Pickups",
+				"x": 343,
+				"y": 134,
+				"width": 8,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Score": 3,
+					"AnimationTag": "Red",
+					"ColliderScale": 1,
+					"DestroyEvent": "Pickup/Money"
+				}
+			}
+		],
+		"Dirt": [
+			{
+				"id": "Dirt",
+				"iid": "7771c3f0-2a00-11ed-ba9e-53111e3f0734",
+				"layer": "Destructibles",
+				"x": 552,
+				"y": 120,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			},
+			{
+				"id": "Dirt",
+				"iid": "7df8c160-2a00-11ed-ba9e-272b100b95dc",
+				"layer": "Destructibles",
+				"x": 552,
+				"y": 88,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			},
+			{
+				"id": "Dirt",
+				"iid": "81ef7700-2a00-11ed-ba9e-a5cae8eb6cf2",
+				"layer": "Destructibles",
+				"x": 552,
+				"y": 104,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			},
+			{
+				"id": "Dirt",
+				"iid": "892f7950-2a00-11ed-ba9e-05de44e5c723",
+				"layer": "Destructibles",
+				"x": 568,
+				"y": 88,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			},
+			{
+				"id": "Dirt",
+				"iid": "8c599020-2a00-11ed-ba9e-d7f4779c46e6",
+				"layer": "Destructibles",
+				"x": 568,
+				"y": 120,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			},
+			{
+				"id": "Dirt",
+				"iid": "8df5b3f0-2a00-11ed-ba9e-1fda960b91d5",
+				"layer": "Destructibles",
+				"x": 568,
+				"y": 104,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyEvent": "Destructible/Dirt",
+					"IntGridValue": 1,
+					"DestroyDrops": "RockDebris\nRockDebris\nRockDebris"
+				}
+			}
+		],
+		"Chest": [
+			{
+				"id": "Chest",
+				"iid": "4d2610e0-5110-11ed-9d7a-77af96893b0d",
+				"layer": "Destructibles",
+				"x": 495,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"ColliderScale": 1,
+					"DestroyDrops": "BlueCoin\nRedCoin\nSilverCoin\nGoldCoin"
+				}
+			}
+		],
+		"Door": [
+			{
+				"id": "Door",
+				"iid": "0396d570-2a00-11ed-8647-8921e2b035b6",
+				"layer": "Interactables",
+				"x": 505,
+				"y": 160,
+				"width": 48,
+				"height": 48,
+				"color": 9755059,
+				"customFields": {
+					"Exit": {
+						"entityIid": "0926c8b0-2a00-11ed-8647-e7ee948676a5",
+						"layerIid": "dc1ba010-2a00-11ed-a78a-8d81b70936f8",
+						"levelIid": "d36c1e60-2a00-11ed-864f-3f96cd63a369",
+						"worldIid": "67f1c730-5110-11ed-810f-9d8531d8fc0c"
+					}
+				}
+			}
+		],
+		"Sign": [
+			{
+				"id": "Sign",
+				"iid": "686d7b90-5110-11ed-857a-8583c2352844",
+				"layer": "Interactables",
+				"x": 234,
+				"y": 208,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Text": "I go around in circles,\nBut always straight ahead\nNever complain,\nNo matter where I am led.\nWhat am I?"
+				}
+			}
+		]
+	}
+}

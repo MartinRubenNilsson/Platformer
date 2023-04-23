@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{a66cb9da-377b-4e2e-ad4d-350d00d1cbd0}">
+		<property name="assetPath">
+			<value>Debris/Crate/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{88dc7422-5203-40ac-b176-186576902d45}</destination>
+		</relationship>
+	</object>
+</objects>

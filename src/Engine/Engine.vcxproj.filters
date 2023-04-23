@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio">
+      <UniqueIdentifier>{B7281C0F-233D-44C0-ECBE-E71F589240F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clock">
+      <UniqueIdentifier>{51983B0F-BDAC-63C0-862E-0720F20160F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{36EF08BC-22BC-63C7-4BD5-516F37019955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\cbuffer">
+      <UniqueIdentifier>{C2C7BB15-AEC0-DA67-D7F2-BFECC34ABA73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\renderer">
+      <UniqueIdentifier>{BC4B867B-2862-8411-71D9-0F33DD2E5599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\shader">
+      <UniqueIdentifier>{3C3A6C64-A8C5-D928-B1D6-5C1D1DE13529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\state">
+      <UniqueIdentifier>{26BF8DF3-128D-81F9-FB20-F21FE78D5D5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\texture">
+      <UniqueIdentifier>{B6829739-A27B-B68B-CBAD-9B10B7059697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hlsl">
+      <UniqueIdentifier>{98F1977C-8428-990D-2D15-7F10192B150F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{B54AA90F-215F-D1C0-EAE0-742056B4CDF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{966DB512-02D8-6989-4B16-1B2FB7BF47DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{CF809A7C-BBB7-9B0D-64A4-811050BA170F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{5DFE1E25-49A0-49FB-325B-5D4F1E9CD04B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="audio\Bank.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\Event.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\Listener.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="clock\Clock.h">
+      <Filter>clock</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Graphics.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Rects.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\cbuffer\CameraData.h">
+      <Filter>graphics\cbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\cbuffer\ConstantBuffer.h">
+      <Filter>graphics\cbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\cbuffer\LineStripData.h">
+      <Filter>graphics\cbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\cbuffer\PostprocessData.h">
+      <Filter>graphics\cbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\cbuffer\SpriteData.h">
+      <Filter>graphics\cbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\cbuffer\TransitionData.h">
+      <Filter>graphics\cbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\renderer\Drawer.h">
+      <Filter>graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\renderer\Postprocessor.h">
+      <Filter>graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\renderer\Transitioner.h">
+      <Filter>graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\shader\ComputeShader.h">
+      <Filter>graphics\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\shader\PixelShader.h">
+      <Filter>graphics\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\shader\Shader.h">
+      <Filter>graphics\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\shader\ShaderManager.h">
+      <Filter>graphics\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\shader\VertexShader.h">
+      <Filter>graphics\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\state\StateManager.h">
+      <Filter>graphics\state</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\texture\BackBuffer.h">
+      <Filter>graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\texture\Image.h">
+      <Filter>graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\texture\RenderTarget.h">
+      <Filter>graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\texture\Texture.h">
+      <Filter>graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\texture\Tileset.h">
+      <Filter>graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\texture\TilesetManager.h">
+      <Filter>graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="input\Input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\DX11Interface.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\FMODInterface.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ImGuiInterface.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Color.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Direction.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Random.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Rect.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Transform.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\mat2x2.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math_funcs.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vec2.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="window\Key.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\Window.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\WindowMessage.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\MessageHandler.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="math\PerlinNoise.h">
+      <Filter>math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="audio\Bank.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\Event.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\Listener.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="clock\Clock.cpp">
+      <Filter>clock</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Graphics.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Rects.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\cbuffer\ConstantBuffer.cpp">
+      <Filter>graphics\cbuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\renderer\Drawer.cpp">
+      <Filter>graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\renderer\Postprocessor.cpp">
+      <Filter>graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\renderer\Transitioner.cpp">
+      <Filter>graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\shader\ComputeShader.cpp">
+      <Filter>graphics\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\shader\PixelShader.cpp">
+      <Filter>graphics\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\shader\Shader.cpp">
+      <Filter>graphics\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\shader\ShaderManager.cpp">
+      <Filter>graphics\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\shader\VertexShader.cpp">
+      <Filter>graphics\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\state\StateManager.cpp">
+      <Filter>graphics\state</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\texture\BackBuffer.cpp">
+      <Filter>graphics\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\texture\Image.cpp">
+      <Filter>graphics\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\texture\RenderTarget.cpp">
+      <Filter>graphics\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\texture\Texture.cpp">
+      <Filter>graphics\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\texture\Tileset.cpp">
+      <Filter>graphics\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\texture\TilesetManager.cpp">
+      <Filter>graphics\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="input\Input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\DX11Interface.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\FMODInterface.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ImGuiInterface.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Random.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Rect.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\math_funcs.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="window\Window.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="math\PerlinNoise.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="hlsl\FullscreenVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\LineStripPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\LineStripVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\PostprocessPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\SpritePS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\SpriteVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\TransitionPushPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hlsl\cbuffers.hlsli">
+      <Filter>hlsl</Filter>
+    </None>
+    <None Include="hlsl\common.hlsli">
+      <Filter>hlsl</Filter>
+    </None>
+    <None Include="hlsl\textures.hlsli">
+      <Filter>hlsl</Filter>
+    </None>
+    <None Include="hlsl\vertices.hlsli">
+      <Filter>hlsl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

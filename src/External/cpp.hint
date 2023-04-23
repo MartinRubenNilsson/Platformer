@@ -1,0 +1,22 @@
+#define IMGUI_API
+#define IMGUI_DEMO_MARKER(section) do { if (GImGuiDemoMarkerCallback != NULL) GImGuiDemoMarkerCallback(__FILE__, __LINE__, section, GImGuiDemoMarkerCallbackUserData); } while (0)
+#define IM_ARRAYSIZE(_ARR) ((int)(sizeof(_ARR) / sizeof(*(_ARR))))
+#define IM_FMTARGS(FMT) __attribute__((format(gnu_printf, FMT, FMT+1)))
+#define IM_FMTARGS(FMT) __attribute__((format(printf, FMT, FMT+1)))
+#define IM_FMTARGS(FMT)
+#define IM_ASSERT(_EXPR) assert(_EXPR)
+#define IM_MSVC_RUNTIME_CHECKS_RESTORE __pragma(runtime_checks("",restore)) __pragma(check_stack()) __pragma(strict_gs_check(pop))
+#define IM_MSVC_RUNTIME_CHECKS_RESTORE
+#define IM_MSVC_RUNTIME_CHECKS_OFF __pragma(runtime_checks("",off)) __pragma(check_stack(off)) __pragma(strict_gs_check(push,off))
+#define IM_MSVC_RUNTIME_CHECKS_OFF
+
+#define STBRP_DEF
+#define STBTT_DEF
+
+#define NLOHMANN_JSON_NAMESPACE_BEGIN namespace nlohmann { inline namespace NLOHMANN_JSON_NAMESPACE_CONCAT( NLOHMANN_JSON_ABI_TAGS, NLOHMANN_JSON_NAMESPACE_VERSION) {
+#define NLOHMANN_JSON_NAMESPACE_END } }
+
+#define NULL
+#define NULL ((void *)0)
+#define FLT_MIN
+#define FLT_MAX

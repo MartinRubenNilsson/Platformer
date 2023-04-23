@@ -1,0 +1,220 @@
+{
+	"x": 0,
+	"y": -512,
+	"width": 768,
+	"height": 512,
+	"iid": "a316bd80-66b0-11ec-9cd7-c50cdc9d2cc4",
+	"layers": [
+		"Bg_textures.png",
+		"Wall_shadows.png",
+		"Collisions.png"
+	],
+	"entities": {
+		"Player": [
+			{
+				"id": "Player",
+				"iid": "61b11d50-2a00-11ed-ba46-d7267ca690f5",
+				"layer": "Player",
+				"x": 371,
+				"y": 210,
+				"width": 16,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 3,
+					"Score": 0,
+					"AnimationTag": "Idle",
+					"ColliderScale": 0.7,
+					"Gravity": 0.1,
+					"SensorsScale": 0.7,
+					"FaceGroundMotion": true
+				}
+			}
+		],
+		"Spikeball": [
+			{
+				"id": "Spikeball",
+				"iid": "3b5aae30-2a00-11ed-954b-6d216d45fb00",
+				"layer": "Enemies",
+				"x": 143,
+				"y": 208,
+				"width": 32,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Roll",
+					"ColliderScale": 0.7,
+					"Shake": 0.5,
+					"Score": 15
+				}
+			},
+			{
+				"id": "Spikeball",
+				"iid": "3c0a2810-2a00-11ed-954b-ad0bb93721f5",
+				"layer": "Enemies",
+				"x": 173,
+				"y": 207,
+				"width": 32,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Roll",
+					"ColliderScale": 0.7,
+					"Shake": 0.5,
+					"Score": 15
+				}
+			},
+			{
+				"id": "Spikeball",
+				"iid": "3e9d07f0-2a00-11ed-954b-db8165548bd3",
+				"layer": "Enemies",
+				"x": 287,
+				"y": 146,
+				"width": 32,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Roll",
+					"ColliderScale": 0.7,
+					"Shake": 0.5,
+					"Score": 15
+				}
+			},
+			{
+				"id": "Spikeball",
+				"iid": "3f8e6cd0-2a00-11ed-954b-c516ad09b6a3",
+				"layer": "Enemies",
+				"x": 248,
+				"y": 146,
+				"width": 32,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Roll",
+					"ColliderScale": 0.7,
+					"Shake": 0.5,
+					"Score": 15
+				}
+			},
+			{
+				"id": "Spikeball",
+				"iid": "40ade690-2a00-11ed-954b-23cd755023cf",
+				"layer": "Enemies",
+				"x": 446,
+				"y": 162,
+				"width": 32,
+				"height": 32,
+				"color": 9755059,
+				"customFields": {
+					"Health": 2,
+					"AnimationTag": "Roll",
+					"ColliderScale": 0.7,
+					"Shake": 0.5,
+					"Score": 15
+				}
+			}
+		],
+		"Heart": [
+			{
+				"id": "Heart",
+				"iid": "0e210040-2a00-11ed-938a-05cd82f6b62c",
+				"layer": "Pickups",
+				"x": 59,
+				"y": 108,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 1,
+					"AnimationTag": "Heart",
+					"DestroyEvent": "Pickup/Health",
+					"ColliderScale": 0.7
+				}
+			},
+			{
+				"id": "Heart",
+				"iid": "0fd14850-2a00-11ed-938a-d7fa60289058",
+				"layer": "Pickups",
+				"x": 98,
+				"y": 108,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 1,
+					"AnimationTag": "Heart",
+					"DestroyEvent": "Pickup/Health",
+					"ColliderScale": 0.7
+				}
+			},
+			{
+				"id": "Heart",
+				"iid": "14052e00-2a00-11ed-938a-53cc82128846",
+				"layer": "Pickups",
+				"x": 450,
+				"y": 226,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 1,
+					"AnimationTag": "Heart",
+					"DestroyEvent": "Pickup/Health",
+					"ColliderScale": 0.7
+				}
+			},
+			{
+				"id": "Heart",
+				"iid": "19139530-2a00-11ed-938a-b5bfd5048636",
+				"layer": "Pickups",
+				"x": 78,
+				"y": 108,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 1,
+					"AnimationTag": "Heart",
+					"DestroyEvent": "Pickup/Health",
+					"ColliderScale": 0.7
+				}
+			},
+			{
+				"id": "Heart",
+				"iid": "19fd8000-2a00-11ed-938a-054e21229c09",
+				"layer": "Pickups",
+				"x": 138,
+				"y": 104,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 1,
+					"AnimationTag": "Heart",
+					"DestroyEvent": "Pickup/Health",
+					"ColliderScale": 0.7
+				}
+			},
+			{
+				"id": "Heart",
+				"iid": "1b362710-2a00-11ed-938a-b9c1a948fd2a",
+				"layer": "Pickups",
+				"x": 162,
+				"y": 103,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"Health": 1,
+					"AnimationTag": "Heart",
+					"DestroyEvent": "Pickup/Health",
+					"ColliderScale": 0.7
+				}
+			}
+		]
+	}
+}
